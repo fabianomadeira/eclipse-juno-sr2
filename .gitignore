@@ -1,0 +1,4 @@
+.DS_Store
+.settings
+org.eclipse.ui.ide.prefs
+*pmd-eclipse.log
