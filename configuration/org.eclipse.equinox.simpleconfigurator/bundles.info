@@ -9,6 +9,11 @@ com.google.inject.assistedinject,3.0.0.201207101151,plugins/com.google.inject.as
 com.google.inject.multibindings,3.0.0.201207101151,plugins/com.google.inject.multibindings_3.0.0.201207101151.jar,4,false
 com.ibm.icu,4.4.2.v20110823,plugins/com.ibm.icu_4.4.2.v20110823.jar,4,false
 com.jcraft.jsch,0.1.46.v201205102330,plugins/com.jcraft.jsch_0.1.46.v201205102330.jar,4,false
+com.mountainminds.eclemma.asm,2.2.0.201210261515,plugins/com.mountainminds.eclemma.asm_2.2.0.201210261515.jar,4,false
+com.mountainminds.eclemma.core,2.2.0.201210261515,plugins/com.mountainminds.eclemma.core_2.2.0.201210261515.jar,4,false
+com.mountainminds.eclemma.debug.ui.compatibility,2.2.0.201210261515,plugins/com.mountainminds.eclemma.debug.ui.compatibility_2.2.0.201210261515.jar,4,false
+com.mountainminds.eclemma.doc,2.2.0.201210261515,plugins/com.mountainminds.eclemma.doc_2.2.0.201210261515.jar,4,false
+com.mountainminds.eclemma.ui,2.2.0.201210261515,plugins/com.mountainminds.eclemma.ui_2.2.0.201210261515.jar,4,false
 com.ning.async-http-client,1.6.5.20120903-0645,plugins/com.ning.async-http-client_1.6.5.20120903-0645.jar,4,false
 com.ning.async-http-client,1.6.5.20130129-0421,plugins/com.ning.async-http-client_1.6.5.20130129-0421.jar,4,false
 com.sun.el,2.2.0.v201108011116,plugins/com.sun.el_2.2.0.v201108011116.jar,4,false
@@ -417,6 +422,9 @@ org.eclipse.wst.xsdeditor.doc.user,1.0.800.v201005192212,plugins/org.eclipse.wst
 org.eclipse.xsd,2.8.1.v20130125-0826,plugins/org.eclipse.xsd_2.8.1.v20130125-0826.jar,4,false
 org.eclipse.xsd.edit,2.6.0.v20130125-0826,plugins/org.eclipse.xsd.edit_2.6.0.v20130125-0826.jar,4,false
 org.hamcrest.core,1.1.0.v20090501071000,plugins/org.hamcrest.core_1.1.0.v20090501071000.jar,4,false
+org.jacoco.agent,0.6.0.201210061924,plugins/org.jacoco.agent_0.6.0.201210061924.jar,4,false
+org.jacoco.core,0.6.0.201210061924,plugins/org.jacoco.core_0.6.0.201210061924.jar,4,false
+org.jacoco.report,0.6.0.201210061924,plugins/org.jacoco.report_0.6.0.201210061924.jar,4,false
 org.jboss.netty,3.2.5.Final-20120903-0645,plugins/org.jboss.netty_3.2.5.Final-20120903-0645.jar,4,false
 org.jboss.netty,3.2.5.Final-20130129-0421,plugins/org.jboss.netty_3.2.5.Final-20130129-0421.jar,4,false
 org.jdom,1.1.1.v201101151400,plugins/org.jdom_1.1.1.v201101151400.jar,4,false
