@@ -3,6 +3,14 @@
  <object class="org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo"> 
   <void property="iuToNodeKey"> 
    <void method="put"> 
+    <string>org.sonar.ide.eclipse.jdt.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1226</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
     <string>EclipseSkins</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
@@ -27,10 +35,10 @@
     </object> 
    </void> 
    <void method="put"> 
-    <string>org.eclipse.rap.tools.feature.group</string> 
+    <string>gr.uom.java.jdeodorant</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>http://marketplace.eclipse.org#47075</string> 
+      <string>http://marketplace.eclipse.org#593</string> 
      </void> 
     </object> 
    </void> 
@@ -43,18 +51,18 @@
     </object> 
    </void> 
    <void method="put"> 
-    <string>de.loskutov.BytecodeOutline.feature</string> 
+    <string>org.eclipse.rap.tools.feature.group</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>http://marketplace.eclipse.org#124</string> 
+      <string>http://marketplace.eclipse.org#47075</string> 
      </void> 
     </object> 
    </void> 
    <void method="put"> 
-    <string>org.eclipse.team.svn</string> 
+    <string>de.loskutov.BytecodeOutline.feature</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>http://marketplace.eclipse.org#1139</string> 
+      <string>http://marketplace.eclipse.org#124</string> 
      </void> 
     </object> 
    </void> 
@@ -67,6 +75,14 @@
     </object> 
    </void> 
    <void method="put"> 
+    <string>org.eclipse.team.svn</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1139</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
     <string>org.eclipse.vex.feature</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
@@ -74,6 +90,22 @@
      </void> 
      <void method="add"> 
       <string>http://marketplace.eclipse.org#650134</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.sonar.ide.eclipse.cdt.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1226</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.sonar.ide.eclipse.thirdparty.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1226</string> 
      </void> 
     </object> 
    </void> 
@@ -106,6 +138,22 @@
     <object class="java.util.ArrayList"> 
      <void method="add"> 
       <string>http://marketplace.eclipse.org#47075</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>net.sf.eclipsecs</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#150</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>edu.umd.cs.findbugs.plugin.eclipse</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1099</string> 
      </void> 
     </object> 
    </void> 
@@ -201,6 +249,14 @@
     </object> 
    </void> 
    <void method="put"> 
+    <string>org.eclipse.team.svn.source</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1139</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
     <string>com.chronon.sb</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
@@ -209,10 +265,10 @@
     </object> 
    </void> 
    <void method="put"> 
-    <string>org.eclipse.team.svn.source</string> 
+    <string>org.sonar.ide.eclipse.mylyn.feature</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>http://marketplace.eclipse.org#1139</string> 
+      <string>http://marketplace.eclipse.org#1226</string> 
      </void> 
     </object> 
    </void> 
@@ -233,18 +289,18 @@
     </object> 
    </void> 
    <void method="put"> 
-    <string>org.zeroturnaround.eclipse.wtp.feature</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>http://marketplace.eclipse.org#29591</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
     <string>org.eclipse.jubula.feature.launch.java</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
       <string>http://marketplace.bredex.de#12</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>org.zeroturnaround.eclipse.wtp.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#29591</string> 
      </void> 
     </object> 
    </void> 
@@ -273,6 +329,14 @@
     </object> 
    </void> 
    <void method="put"> 
+    <string>org.sonar.ide.eclipse.pydev.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1226</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
     <string>AnyEditTools</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
@@ -288,32 +352,21 @@
      </void> 
     </object> 
    </void> 
+   <void method="put"> 
+    <string>org.sonar.ide.eclipse.m2e.feature</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>http://marketplace.eclipse.org#1226</string> 
+     </void> 
+    </object> 
+   </void> 
   </void> 
   <void property="nodeKeyToIU"> 
    <void method="put"> 
-    <string>http://marketplace.eclipse.org#29591</string> 
+    <string>http://marketplace.eclipse.org#593</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>org.zeroturnaround.eclipse.wtp.feature</string> 
-     </void> 
-     <void method="add"> 
-      <string>org.zeroturnaround.eclipse.feature</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#48626</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>com.chronon.sb</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#264</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>com.mountainminds.eclemma.feature</string> 
+      <string>gr.uom.java.jdeodorant</string> 
      </void> 
     </object> 
    </void> 
@@ -326,56 +379,18 @@
     </object> 
    </void> 
    <void method="put"> 
-    <string>http://marketplace.bredex.de#4</string> 
+    <string>http://marketplace.eclipse.org#264</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>org.eclipse.jubula.feature</string> 
+      <string>com.mountainminds.eclemma.feature</string> 
      </void> 
     </object> 
    </void> 
    <void method="put"> 
-    <string>http://marketplace.bredex.de#1</string> 
+    <string>http://marketplace.eclipse.org#1099</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
-      <string>com.bredexsw.jubula.client.core.driver.feature</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#156392</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>com.xored.q7.platform</string> 
-     </void> 
-     <void method="add"> 
-      <string>com.xored.q7.module.nebula</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#650134</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>org.eclipse.vex.sdk.feature</string> 
-     </void> 
-     <void method="add"> 
-      <string>org.eclipse.vex.feature</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.bredex.de#13</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>org.eclipse.jubula.feature.launch.rcp</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.bredex.de#12</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>org.eclipse.jubula.feature.launch.java</string> 
+      <string>edu.umd.cs.findbugs.plugin.eclipse</string> 
      </void> 
     </object> 
    </void> 
@@ -388,70 +403,10 @@
     </object> 
    </void> 
    <void method="put"> 
-    <string>http://marketplace.eclipse.org#686974</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>oracle.eclipse.tools.juno.adf</string> 
-     </void> 
-     <void method="add"> 
-      <string>oracle.eclipse.tools.juno.adf.doc.v11114</string> 
-     </void> 
-     <void method="add"> 
-      <string>oracle.eclipse.tools.juno.adf.doc.v11115</string> 
-     </void> 
-     <void method="add"> 
-      <string>oracle.eclipse.tools.juno.adf.doc.v11116</string> 
-     </void> 
-     <void method="add"> 
-      <string>oracle.eclipse.tools.juno.adf.doc.v11117</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#87</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>AnyEditTools</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
     <string>http://marketplace.eclipse.org#124</string> 
     <object class="java.util.ArrayList"> 
      <void method="add"> 
       <string>de.loskutov.BytecodeOutline.feature</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#28122</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>net.sf.mongrel.feature</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#88</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>JDepend4Eclipse</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#204</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>FileSync</string> 
-     </void> 
-    </object> 
-   </void> 
-   <void method="put"> 
-    <string>http://marketplace.eclipse.org#205</string> 
-    <object class="java.util.ArrayList"> 
-     <void method="add"> 
-      <string>EclipseSkins</string> 
      </void> 
     </object> 
    </void> 
@@ -497,6 +452,170 @@
      </void> 
      <void method="add"> 
       <string>org.eclipse.emf.emfstore.ecp.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#29591</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.zeroturnaround.eclipse.wtp.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.zeroturnaround.eclipse.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#48626</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.chronon.sb</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.bredex.de#4</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.eclipse.jubula.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#156392</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.xored.q7.platform</string> 
+     </void> 
+     <void method="add"> 
+      <string>com.xored.q7.module.nebula</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.bredex.de#1</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>com.bredexsw.jubula.client.core.driver.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#650134</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.eclipse.vex.sdk.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.eclipse.vex.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.bredex.de#13</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.eclipse.jubula.feature.launch.rcp</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.bredex.de#12</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.eclipse.jubula.feature.launch.java</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#150</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>net.sf.eclipsecs</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#686974</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>oracle.eclipse.tools.juno.adf</string> 
+     </void> 
+     <void method="add"> 
+      <string>oracle.eclipse.tools.juno.adf.doc.v11114</string> 
+     </void> 
+     <void method="add"> 
+      <string>oracle.eclipse.tools.juno.adf.doc.v11115</string> 
+     </void> 
+     <void method="add"> 
+      <string>oracle.eclipse.tools.juno.adf.doc.v11116</string> 
+     </void> 
+     <void method="add"> 
+      <string>oracle.eclipse.tools.juno.adf.doc.v11117</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#87</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>AnyEditTools</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#28122</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>net.sf.mongrel.feature</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#88</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>JDepend4Eclipse</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#204</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>FileSync</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#205</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>EclipseSkins</string> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="put"> 
+    <string>http://marketplace.eclipse.org#1226</string> 
+    <object class="java.util.ArrayList"> 
+     <void method="add"> 
+      <string>org.sonar.ide.eclipse.jdt.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.sonar.ide.eclipse.pydev.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.sonar.ide.eclipse.mylyn.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.sonar.ide.eclipse.thirdparty.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.sonar.ide.eclipse.m2e.feature</string> 
+     </void> 
+     <void method="add"> 
+      <string>org.sonar.ide.eclipse.cdt.feature</string> 
      </void> 
     </object> 
    </void> 
