@@ -20,6 +20,7 @@ com.sun.el,2.2.0.v201108011116,plugins/com.sun.el_2.2.0.v201108011116.jar,4,fals
 com.sun.syndication,0.9.0.v200803061811,plugins/com.sun.syndication_0.9.0.v200803061811.jar,4,false
 com.sun.xml.bind,2.2.0.v201105210647,plugins/com.sun.xml.bind_2.2.0.v201105210647.jar,4,false
 de.loskutov.anyedit.AnyEditTools,2.4.3.201211022220,plugins/de.loskutov.anyedit.AnyEditTools_2.4.3.201211022220.jar,4,false
+edu.umd.cs.findbugs.plugin.eclipse,2.0.2.20121210,plugins/edu.umd.cs.findbugs.plugin.eclipse_2.0.2.20121210/,4,false
 javax.activation,1.1.0.v201108011116,plugins/javax.activation_1.1.0.v201108011116.jar,4,false
 javax.annotation,1.0.0.v20101115-0725,plugins/javax.annotation_1.0.0.v20101115-0725.jar,4,false
 javax.el,2.2.0.v201108011116,plugins/javax.el_2.2.0.v201108011116.jar,4,false
