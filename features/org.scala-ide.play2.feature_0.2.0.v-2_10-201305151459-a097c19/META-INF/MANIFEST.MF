@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_37
+Built-By: mirco
+Created-By: Apache Maven
+Archiver-Version: Plexus Archiver
+
+Name: META-INF/maven/org.scala-ide/org.scala-ide.play2.feature/pom.xml
+SHA1-Digest: 5ad8b1iApwl2chXuDdPCarGwcJo=
+
+Name: feature.xml
+SHA1-Digest: D/RIWkcU5M45b/U8MaQE8EFnxZw=
+
+Name: META-INF/maven/org.scala-ide/org.scala-ide.play2.feature/pom.pro
+ perties
+SHA1-Digest: 2tGjableyZiR++2kWzG2YEXfrCo=
+
