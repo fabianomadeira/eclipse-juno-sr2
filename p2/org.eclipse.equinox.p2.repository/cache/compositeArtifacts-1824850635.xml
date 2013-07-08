@@ -5,10 +5,10 @@
     <properties size='2'>
         <property name='p2.compressed' value='true' />
         <!-- get new time w/ date +%s000 -->
-        <property name='p2.timestamp' value='201209221626' />
+        <property name='p2.timestamp' value='201306282222' />
     </properties>
     <children size='2'>
-        <child location='http://sourceforge.net/projects/eclipse-cs/files/updatesite/5.6.0' />
+        <child location='http://sourceforge.net/projects/eclipse-cs/files/updatesite/5.6.1' />
         <child location='http://sevntu-checkstyle.github.com/sevntu.checkstyle/update-site/' />
     </children>
 </repository>

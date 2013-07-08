@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
-<repository name='update site: http://andrei.gmxhome.de/eclipse/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+<repository name='update site: http://andrei.gmxhome.de/eclipse/' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1.0.0'>
   <properties size='3'>
-    <property name='p2.timestamp' value='1367518804111'/>
+    <property name='p2.timestamp' value='1373312203617'/>
     <property name='eclipse.p2.force.threading' value='true'/>
-    <property name='site.checksum' value='2430859787'/>
+    <property name='site.checksum' value='1835713686'/>
   </properties>
   <mappings size='3'>
     <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
@@ -37,6 +37,11 @@
         <property name='artifact.reference' value='http://jdepend4eclipse.eclipselabs.org.codespot.com/files/de.loskutov.eclipse.jdepend_1.2.3.201108071203.jar'/>
       </repositoryProperties>
     </artifact>
+    <artifact classifier='org.eclipse.update.feature' id='AnyEditTools' version='2.4.4.201307082032'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://andrei.gmxhome.de/eclipse/features/AnyEditTools_2.4.4.201307082032.jar'/>
+      </repositoryProperties>
+    </artifact>
     <artifact classifier='osgi.bundle' id='de.loskutov.anyedit.AnyEditTools' version='2.3.0.200910041235'>
       <repositoryProperties size='1'>
         <property name='artifact.reference' value='http://anyedittools.eclipselabs.org.codespot.com/files/de.loskutov.anyedit.AnyEditTools_2.3.0.200910041235.jar'/>
@@ -52,14 +57,14 @@
         <property name='artifact.reference' value='http://andrei.gmxhome.de/eclipse/features/edu.umd.cs.findbugs.plugin.eclipse_2.0.2.20121210.jar'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='org.eclipse.update.feature' id='AnyEditTools' version='2.4.3.201211022220'>
-      <repositoryProperties size='1'>
-        <property name='artifact.reference' value='http://andrei.gmxhome.de/eclipse/features/AnyEditTools_2.4.3.201211022220.jar'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='JDepend4Eclipse' version='1.2.1'>
       <repositoryProperties size='1'>
         <property name='artifact.reference' value='http://andrei.gmxhome.de/eclipse/features/JDepend4Eclipse_1.2.1.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.loskutov.anyedit.AnyEditTools' version='2.4.4.201307082032'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://anyedittools.eclipselabs.org.codespot.com/files/de.loskutov.anyedit.AnyEditTools_2.4.4.201307082032.jar'/>
       </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='de.loskutov.BytecodeOutline' version='2.4.1'>
@@ -72,14 +77,14 @@
         <property name='artifact.reference' value='http://filesync4eclipse.eclipselabs.org.codespot.com/files/de.loskutov.FileSync_1.3.8.201104160944.jar'/>
       </repositoryProperties>
     </artifact>
-    <artifact classifier='osgi.bundle' id='de.loskutov.eclipseskins.extvs' version='1.5.6.201008292220'>
-      <repositoryProperties size='1'>
-        <property name='artifact.reference' value='http://skin4eclipse.eclipselabs.org.codespot.com/files/de.loskutov.eclipseskins.extvs_1.5.6.201008292220.jar'/>
-      </repositoryProperties>
-    </artifact>
     <artifact classifier='org.eclipse.update.feature' id='EclipseSkins' version='1.5.6.201008292220'>
       <repositoryProperties size='1'>
         <property name='artifact.reference' value='http://andrei.gmxhome.de/eclipse/features/EclipseSkins_1.5.6.201008292220.jar'/>
+      </repositoryProperties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='de.loskutov.eclipseskins.extvs' version='1.5.6.201008292220'>
+      <repositoryProperties size='1'>
+        <property name='artifact.reference' value='http://skin4eclipse.eclipselabs.org.codespot.com/files/de.loskutov.eclipseskins.extvs_1.5.6.201008292220.jar'/>
       </repositoryProperties>
     </artifact>
     <artifact classifier='osgi.bundle' id='com.vectrace.MercurialEclipse' version='2.0.1.201211031332'>
@@ -130,11 +135,6 @@
     <artifact classifier='org.eclipse.update.feature' id='AnyEditTools' version='2.3.0.200910041235'>
       <repositoryProperties size='1'>
         <property name='artifact.reference' value='http://andrei.gmxhome.de/eclipse/features/AnyEditTools_2.3.0.200910041235.jar'/>
-      </repositoryProperties>
-    </artifact>
-    <artifact classifier='osgi.bundle' id='de.loskutov.anyedit.AnyEditTools' version='2.4.3.201211022220'>
-      <repositoryProperties size='1'>
-        <property name='artifact.reference' value='http://anyedittools.eclipselabs.org.codespot.com/files/de.loskutov.anyedit.AnyEditTools_2.4.3.201211022220.jar'/>
       </repositoryProperties>
     </artifact>
     <artifact classifier='org.eclipse.update.feature' id='JDepend4Eclipse' version='1.2.3.201108071203'>

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?metadataRepository version='1.1.0'?>
-<repository name='update site: http://andrei.gmxhome.de/eclipse/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1'>
+<repository name='update site: http://andrei.gmxhome.de/eclipse/' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1367518797959'/>
-    <property name='site.checksum' value='2430859787'/>
+    <property name='p2.timestamp' value='1373312166807'/>
+    <property name='site.checksum' value='1835713686'/>
   </properties>
   <references size='6'>
     <repository uri='http://mercurialeclipse.eclipselabs.org.codespot.com/hg.wiki/update_site/stable/' url='http://mercurialeclipse.eclipselabs.org.codespot.com/hg.wiki/update_site/stable/' type='1' options='0'/>
@@ -175,49 +175,6 @@
         </instructions>
       </touchpointData>
     </unit>
-    <unit id='AnyEditTools.feature.group' version='2.4.3.201211022220' singleton='false'>
-      <update id='AnyEditTools.feature.group' range='[0.0.0,2.4.3.201211022220)' severity='0'/>
-      <properties size='5'>
-        <property name='org.eclipse.equinox.p2.name' value='AnyEditTools'/>
-        <property name='org.eclipse.equinox.p2.description' value='Adds useful context menu actions to text files and editors - Open file, type under&#xA;      cursor, Convert tabs to spaces, case, html, base64, unicode, Compare/Replace with&#xA;      clipboard or external files etc. AnyEdit can remove trailing whitespace and/or&#xA;      convert tabs-spaces on save and contributes Import/Export working sets wizards.'/>
-        <property name='org.eclipse.equinox.p2.description.url' value='http://andrei.gmxhome.de/anyedit/index.html'/>
-        <property name='org.eclipse.equinox.p2.provider' value='Andrey Loskutov'/>
-        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.group' version='2.4.3.201211022220'/>
-      </provides>
-      <requires size='15'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='3.5.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.filesystem' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.forms' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.ui' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.compare' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.net' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.expressions' range='0.0.0'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='de.loskutov.anyedit.AnyEditTools' range='[2.4.3.201211022220,2.4.3.201211022220]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.jar' range='[2.4.3.201211022220,2.4.3.201211022220]'>
-          <filter>
-            (org.eclipse.update.install.features=true)
-          </filter>
-        </required>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-      <licenses size='1'>
-        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
-          Copyright (c) 2002 - 2012 Andrey Loskutov, licensed under the Eclipse Public License 1.0.
-        </license>
-      </licenses>
-      <copyright uri='http://andrei.gmxhome.de/anyedit/copyright.html' url='http://andrei.gmxhome.de/anyedit/copyright.html'>
-        Copyright (c)2002 - 2012 by Andrey Loskutov &lt;Loskutov@gmx.de&gt;.&#xA;All rights reserved.
-      </copyright>
-    </unit>
     <unit id='de.loskutov.eclipse.jdepend' version='1.2.1' singleton='false'>
       <update id='de.loskutov.eclipse.jdepend' range='[0.0.0,1.2.1)' severity='0'/>
       <properties size='1'>
@@ -334,24 +291,6 @@
       </requires>
       <touchpoint id='null' version='0.0.0'/>
     </unit>
-    <unit id='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.5-4.2' version='1.0.0.7D7G7Sdhbh--7cISUMuQsT4km'>
-      <properties size='3'>
-        <property name='org.eclipse.equinox.p2.name' value='Eclipse 3.5 - 4.2 plugins'/>
-        <property name='org.eclipse.equinox.p2.description' value='Eclipse 3.5 - 4.2 compatible plugins provided by Andrey Loskutov'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.5-4.2' version='1.0.0.7D7G7Sdhbh--7cISUMuQsT4km'/>
-      </provides>
-      <requires size='5'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='FileSync.feature.group' range='[1.3.8.201104160944,1.3.8.201104160944]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='DataHierarchy.feature.group' range='[1.0.0.201005301956,1.0.0.201005301956]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='JDepend4Eclipse.feature.group' range='[1.2.3.201108071203,1.2.3.201108071203]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.group' range='[2.4.3.201211022220,2.4.3.201211022220]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='mercurialeclipse.feature.group' range='[2.0.1.201211031332,2.0.1.201211031332]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
-    </unit>
     <unit id='JDepend4Eclipse.feature.jar' version='1.2.1'>
       <properties size='5'>
         <property name='org.eclipse.equinox.p2.name' value='JDepend4Eclipse'/>
@@ -438,6 +377,28 @@
       </requires>
       <touchpoint id='null' version='0.0.0'/>
     </unit>
+    <unit id='de.loskutov.anyedit.AnyEditTools' version='2.4.4.201307082032' singleton='false'>
+      <update id='de.loskutov.anyedit.AnyEditTools' range='[0.0.0,2.4.4.201307082032)' severity='0'/>
+      <properties size='1'>
+        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='de.loskutov.anyedit.AnyEditTools' version='2.4.4.201307082032'/>
+        <provided namespace='osgi.bundle' name='de.loskutov.anyedit.AnyEditTools' version='2.4.4.201307082032'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='de.loskutov.anyedit.AnyEditTools' version='2.4.4.201307082032'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: de.loskutov.anyedit.AnyEditTools&#xA;Bundle-Version: 2.4.4.201307082032&#xA;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
     <unit id='de.loskutov.FileSync' version='1.3.5.200910041235' singleton='false'>
       <update id='de.loskutov.FileSync' range='[0.0.0,1.3.5.200910041235)' severity='0'/>
       <properties size='1'>
@@ -459,21 +420,6 @@
           </instruction>
         </instructions>
       </touchpointData>
-    </unit>
-    <unit id='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.6-4.2' version='1.0.0.78775cESknh773575753'>
-      <properties size='3'>
-        <property name='org.eclipse.equinox.p2.name' value='Eclipse 3.6 - 4.2 plugins'/>
-        <property name='org.eclipse.equinox.p2.description' value='Eclipse 3.6 - 4.2 compatible plugins provided by Andrey Loskutov'/>
-        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
-      </properties>
-      <provides size='1'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.6-4.2' version='1.0.0.78775cESknh773575753'/>
-      </provides>
-      <requires size='2'>
-        <required namespace='org.eclipse.equinox.p2.iu' name='edu.umd.cs.findbugs.plugin.eclipse.feature.group' range='[2.0.2.20121210,2.0.2.20121210]'/>
-        <required namespace='org.eclipse.equinox.p2.iu' name='de.loskutov.BytecodeOutline.feature.feature.group' range='[2.4.1,2.4.1]'/>
-      </requires>
-      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='de.loskutov.BytecodeOutline.feature.feature.jar' version='2.4.1'>
       <properties size='4'>
@@ -509,6 +455,60 @@
       <copyright uri='..' url='..'>
         Copyright (C)2004-2011 by Andrey Loskutov Loskutov@gmx.de&#xA;All rights reserved.
       </copyright>
+    </unit>
+    <unit id='AnyEditTools.feature.jar' version='2.4.4.201307082032'>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='AnyEditTools'/>
+        <property name='org.eclipse.equinox.p2.description' value='Adds useful context menu actions to text files and editors - Open file, type under&#xA;      cursor, Convert tabs to spaces, case, html, base64, unicode, Compare/Replace with&#xA;      clipboard or external files etc. AnyEdit can remove trailing whitespace and/or&#xA;      convert tabs-spaces on save and contributes Import/Export working sets wizards.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://andrei.gmxhome.de/anyedit/index.html'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Andrey Loskutov'/>
+        <property name='org.eclipse.update.feature.plugin' value='de.loskutov.anyedit.AnyEditTools'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.jar' version='2.4.4.201307082032'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='AnyEditTools' version='2.4.4.201307082032'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='AnyEditTools' version='2.4.4.201307082032'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Copyright (c) 2002 - 2012 Andrey Loskutov, licensed under the Eclipse Public License 1.0.
+        </license>
+      </licenses>
+      <copyright uri='http://andrei.gmxhome.de/anyedit/copyright.html' url='http://andrei.gmxhome.de/anyedit/copyright.html'>
+        Copyright (c)2002 - 2012 by Andrey Loskutov &lt;Loskutov@gmx.de&gt;.&#xA;All rights reserved.
+      </copyright>
+    </unit>
+    <unit id='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.5-4.3' version='1.0.0.7D7G7Udhbh--7cISWL4R2T0mq'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Eclipse 3.5 - 4.3 plugins'/>
+        <property name='org.eclipse.equinox.p2.description' value='Eclipse 3.5 - 4.2 compatible plugins provided by Andrey Loskutov'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.5-4.3' version='1.0.0.7D7G7Udhbh--7cISWL4R2T0mq'/>
+      </provides>
+      <requires size='5'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='FileSync.feature.group' range='[1.3.8.201104160944,1.3.8.201104160944]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.group' range='[2.4.4.201307082032,2.4.4.201307082032]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='DataHierarchy.feature.group' range='[1.0.0.201005301956,1.0.0.201005301956]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='JDepend4Eclipse.feature.group' range='[1.2.3.201108071203,1.2.3.201108071203]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='mercurialeclipse.feature.group' range='[2.0.1.201211031332,2.0.1.201211031332]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='JDepend4Eclipse.feature.jar' version='1.2.3.201108071203'>
       <properties size='5'>
@@ -592,28 +592,6 @@
       <copyright>
         Copyright (C) 2005-2012 MercurialEclipse project.&#xA;All rights reserved. This program and the accompanying materials&#xA;are made available under the terms of the Eclipse Public License&#xA;v1.0&#xA;which accompanies this distribution, and is available at&#xA;http://www.eclipse.org/legal/epl-v10.html
       </copyright>
-    </unit>
-    <unit id='de.loskutov.anyedit.AnyEditTools' version='2.4.3.201211022220' singleton='false'>
-      <update id='de.loskutov.anyedit.AnyEditTools' range='[0.0.0,2.4.3.201211022220)' severity='0'/>
-      <properties size='1'>
-        <property name='org.eclipse.equinox.p2.partial.iu' value='true'/>
-      </properties>
-      <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='de.loskutov.anyedit.AnyEditTools' version='2.4.3.201211022220'/>
-        <provided namespace='osgi.bundle' name='de.loskutov.anyedit.AnyEditTools' version='2.4.3.201211022220'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
-      </provides>
-      <artifacts size='1'>
-        <artifact classifier='osgi.bundle' id='de.loskutov.anyedit.AnyEditTools' version='2.4.3.201211022220'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='manifest'>
-            Bundle-SymbolicName: de.loskutov.anyedit.AnyEditTools&#xA;Bundle-Version: 2.4.3.201211022220&#xA;
-          </instruction>
-        </instructions>
-      </touchpointData>
     </unit>
     <unit id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' version='2.0.2.20121210' singleton='false'>
       <update id='edu.umd.cs.findbugs.plugin.eclipse.feature.group' range='[0.0.0,2.0.2.20121210)' severity='0'/>
@@ -1030,6 +1008,49 @@
         Copyright (C)2002 - 2010 by Andrei Loskutov &lt;Loskutov@gmx.de&gt;. All rights reserved.
       </copyright>
     </unit>
+    <unit id='AnyEditTools.feature.group' version='2.4.4.201307082032' singleton='false'>
+      <update id='AnyEditTools.feature.group' range='[0.0.0,2.4.4.201307082032)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='AnyEditTools'/>
+        <property name='org.eclipse.equinox.p2.description' value='Adds useful context menu actions to text files and editors - Open file, type under&#xA;      cursor, Convert tabs to spaces, case, html, base64, unicode, Compare/Replace with&#xA;      clipboard or external files etc. AnyEdit can remove trailing whitespace and/or&#xA;      convert tabs-spaces on save and contributes Import/Export working sets wizards.'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://andrei.gmxhome.de/anyedit/index.html'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Andrey Loskutov'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.group' version='2.4.4.201307082032'/>
+      </provides>
+      <requires size='15'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.runtime' range='3.5.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.filesystem' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.ide' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.editors' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.console' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.forms' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.debug.ui' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.jface.text' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.compare' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.net' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.core.expressions' range='0.0.0'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='de.loskutov.anyedit.AnyEditTools' range='[2.4.4.201307082032,2.4.4.201307082032]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.jar' range='[2.4.4.201307082032,2.4.4.201307082032]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
+          Copyright (c) 2002 - 2012 Andrey Loskutov, licensed under the Eclipse Public License 1.0.
+        </license>
+      </licenses>
+      <copyright uri='http://andrei.gmxhome.de/anyedit/copyright.html' url='http://andrei.gmxhome.de/anyedit/copyright.html'>
+        Copyright (c)2002 - 2012 by Andrey Loskutov &lt;Loskutov@gmx.de&gt;.&#xA;All rights reserved.
+      </copyright>
+    </unit>
     <unit id='EclipseSkins.feature.group' version='1.5.6.201008292220' singleton='false'>
       <update id='EclipseSkins.feature.group' range='[0.0.0,1.5.6.201008292220)' severity='0'/>
       <properties size='5'>
@@ -1147,41 +1168,20 @@
         Copyright (C)2002 - 2008 by Andrei Loskutov &lt;Loskutov@gmx.de&gt;.&#xA;All rights reserved.
       </copyright>
     </unit>
-    <unit id='AnyEditTools.feature.jar' version='2.4.3.201211022220'>
-      <properties size='5'>
-        <property name='org.eclipse.equinox.p2.name' value='AnyEditTools'/>
-        <property name='org.eclipse.equinox.p2.description' value='Adds useful context menu actions to text files and editors - Open file, type under&#xA;      cursor, Convert tabs to spaces, case, html, base64, unicode, Compare/Replace with&#xA;      clipboard or external files etc. AnyEdit can remove trailing whitespace and/or&#xA;      convert tabs-spaces on save and contributes Import/Export working sets wizards.'/>
-        <property name='org.eclipse.equinox.p2.description.url' value='http://andrei.gmxhome.de/anyedit/index.html'/>
-        <property name='org.eclipse.equinox.p2.provider' value='Andrey Loskutov'/>
-        <property name='org.eclipse.update.feature.plugin' value='de.loskutov.anyedit.AnyEditTools'/>
+    <unit id='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.6-4.3' version='1.0.0.78775cESknh773575753'>
+      <properties size='3'>
+        <property name='org.eclipse.equinox.p2.name' value='Eclipse 3.6 - 4.3 plugins'/>
+        <property name='org.eclipse.equinox.p2.description' value='Eclipse 3.6 - 4.2 compatible plugins provided by Andrey Loskutov'/>
+        <property name='org.eclipse.equinox.p2.type.category' value='true'/>
       </properties>
-      <provides size='3'>
-        <provided namespace='org.eclipse.equinox.p2.iu' name='AnyEditTools.feature.jar' version='2.4.3.201211022220'/>
-        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-        <provided namespace='org.eclipse.update.feature' name='AnyEditTools' version='2.4.3.201211022220'/>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='http://andrei.gmxhome.de/eclipse/site.xml.Eclipse 3.6-4.3' version='1.0.0.78775cESknh773575753'/>
       </provides>
-      <filter>
-        (org.eclipse.update.install.features=true)
-      </filter>
-      <artifacts size='1'>
-        <artifact classifier='org.eclipse.update.feature' id='AnyEditTools' version='2.4.3.201211022220'/>
-      </artifacts>
-      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-      <touchpointData size='1'>
-        <instructions size='1'>
-          <instruction key='zipped'>
-            true
-          </instruction>
-        </instructions>
-      </touchpointData>
-      <licenses size='1'>
-        <license uri='http://www.eclipse.org/legal/epl-v10.html' url='http://www.eclipse.org/legal/epl-v10.html'>
-          Copyright (c) 2002 - 2012 Andrey Loskutov, licensed under the Eclipse Public License 1.0.
-        </license>
-      </licenses>
-      <copyright uri='http://andrei.gmxhome.de/anyedit/copyright.html' url='http://andrei.gmxhome.de/anyedit/copyright.html'>
-        Copyright (c)2002 - 2012 by Andrey Loskutov &lt;Loskutov@gmx.de&gt;.&#xA;All rights reserved.
-      </copyright>
+      <requires size='2'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='edu.umd.cs.findbugs.plugin.eclipse.feature.group' range='[2.0.2.20121210,2.0.2.20121210]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='de.loskutov.BytecodeOutline.feature.feature.group' range='[2.4.1,2.4.1]'/>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
     </unit>
     <unit id='JDepend4Eclipse.feature.group' version='1.2.3.201108071203' singleton='false'>
       <update id='JDepend4Eclipse.feature.group' range='[0.0.0,1.2.3.201108071203)' severity='0'/>
