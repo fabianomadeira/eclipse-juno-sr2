@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<java version="1.7.0_13" class="java.beans.XMLDecoder">
+<java version="1.7.0_25" class="java.beans.XMLDecoder">
  <object class="org.eclipse.epp.internal.mpc.ui.catalog.MarketplaceInfo">
   <void property="iuToNodeKey">
    <void method="put">
@@ -48,6 +48,9 @@
      <void method="add">
       <string>http://marketplace.eclipse.org#47075</string>
      </void>
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#org.eclipse.rap.tools.feature.group</string>
+     </void>
     </object>
    </void>
    <void method="put">
@@ -82,6 +85,14 @@
      </void>
      <void method="add">
       <string>http://marketplace.eclipse.org#650134</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.tigris.subversion.subclipse.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#org.tigris.subversion.subclipse.feature.group</string>
      </void>
     </object>
    </void>
@@ -305,6 +316,14 @@
     </object>
    </void>
    <void method="put">
+    <string>org.eclipse.birt.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#org.eclipse.birt.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>org.eclipse.team.svn.nl1</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -325,6 +344,14 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.eclipse.org#257404</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.eclipse.mat.feature.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#org.eclipse.mat.feature.feature.group</string>
      </void>
     </object>
    </void>
@@ -353,10 +380,10 @@
     </object>
    </void>
    <void method="put">
-    <string>org.eclipselabs.nusmvtools.editor.feature</string>
+    <string>org.eclipse.jdt.feature.group</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>http://marketplace.eclipse.org#9537</string>
+      <string>http://market.eclipsesource.com/yoxos#org.eclipse.jdt.feature.group</string>
      </void>
     </object>
    </void>
@@ -369,10 +396,10 @@
     </object>
    </void>
    <void method="put">
-    <string>org.soyatec.windows.azure.java.feature</string>
+    <string>org.eclipselabs.nusmvtools.editor.feature</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>http://marketplace.eclipse.org#1049</string>
+      <string>http://marketplace.eclipse.org#9537</string>
      </void>
     </object>
    </void>
@@ -381,6 +408,22 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.eclipse.org#1226</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.soyatec.windows.azure.java.feature</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://marketplace.eclipse.org#1049</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>net.sf.eclipsecs.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#net.sf.eclipsecs.feature.group</string>
      </void>
     </object>
    </void>
@@ -473,6 +516,14 @@
     </object>
    </void>
    <void method="put">
+    <string>org.eclipse.egit.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#org.eclipse.egit.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>net.sf.eclipsecs</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -517,6 +568,14 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>http://marketplace.eclipse.org#257404</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>org.python.pydev.feature.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>http://market.eclipsesource.com/yoxos#org.python.pydev.feature.feature.group</string>
      </void>
     </object>
    </void>
@@ -643,6 +702,14 @@
     </object>
    </void>
    <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#org.eclipse.egit.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.egit.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>http://marketplace.eclipse.org#1099</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -725,6 +792,14 @@
     </object>
    </void>
    <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#org.eclipse.rap.tools.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.rap.tools.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>http://marketplace.eclipse.org#1662</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -786,6 +861,22 @@
     </object>
    </void>
    <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#org.eclipse.mat.feature.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.mat.feature.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#org.python.pydev.feature.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.python.pydev.feature.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>http://marketplace.eclipse.org#29591</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -831,10 +922,10 @@
     </object>
    </void>
    <void method="put">
-    <string>http://marketplace.eclipse.org#513</string>
+    <string>http://market.eclipsesource.com/yoxos#org.tigris.subversion.subclipse.feature.group</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>org.eclipse.emf.compare.sdk</string>
+      <string>org.tigris.subversion.subclipse.feature.group</string>
      </void>
     </object>
    </void>
@@ -847,13 +938,10 @@
     </object>
    </void>
    <void method="put">
-    <string>http://marketplace.eclipse.org#156392</string>
+    <string>http://marketplace.eclipse.org#513</string>
     <object class="java.util.ArrayList">
      <void method="add">
-      <string>com.xored.q7.platform</string>
-     </void>
-     <void method="add">
-      <string>com.xored.q7.module.nebula</string>
+      <string>org.eclipse.emf.compare.sdk</string>
      </void>
     </object>
    </void>
@@ -862,6 +950,17 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>com.bredexsw.jubula.client.core.driver.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://marketplace.eclipse.org#156392</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>com.xored.q7.platform</string>
+     </void>
+     <void method="add">
+      <string>com.xored.q7.module.nebula</string>
      </void>
     </object>
    </void>
@@ -962,6 +1061,14 @@
     </object>
    </void>
    <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#org.eclipse.birt.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.birt.feature.group</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
     <string>http://marketplace.eclipse.org#87</string>
     <object class="java.util.ArrayList">
      <void method="add">
@@ -982,6 +1089,14 @@
     <object class="java.util.ArrayList">
      <void method="add">
       <string>JDepend4Eclipse</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#net.sf.eclipsecs.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>net.sf.eclipsecs.feature.group</string>
      </void>
     </object>
    </void>
@@ -1037,6 +1152,14 @@
      </void>
      <void method="add">
       <string>org.sonar.ide.eclipse.cdt.feature</string>
+     </void>
+    </object>
+   </void>
+   <void method="put">
+    <string>http://market.eclipsesource.com/yoxos#org.eclipse.jdt.feature.group</string>
+    <object class="java.util.ArrayList">
+     <void method="add">
+      <string>org.eclipse.jdt.feature.group</string>
      </void>
     </object>
    </void>
