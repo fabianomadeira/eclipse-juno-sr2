@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config transient="false" date="1377273636115" version="3.0">
+<config transient="false" date="1389116491659" version="3.0">
 	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
-		<feature id="org.springsource.ide.eclipse.commons" url="features/org.springsource.ide.eclipse.commons_3.3.0.201307040632-RELEASE/" version="3.3.0.201307040632-RELEASE">
-		</feature>
 		<feature id="org.eclipse.datatools.connectivity.feature.source" url="features/org.eclipse.datatools.connectivity.feature.source_1.10.2.v201209181447-7C7h9DEt1bxqP9criVgb9XdVJxM/" version="1.10.2.v201209181447-7C7h9DEt1bxqP9criVgb9XdVJxM">
+		</feature>
+		<feature id="org.springsource.ide.eclipse.commons" url="features/org.springsource.ide.eclipse.commons_3.3.0.201307040632-RELEASE/" version="3.3.0.201307040632-RELEASE">
 		</feature>
 		<feature id="org.eclipse.datatools.connectivity.oda.designer.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui" url="features/org.eclipse.datatools.connectivity.oda.designer.feature_1.10.2.v201209181447-4137w312412222241/" version="1.10.2.v201209181447-4137w312412222241">
 		</feature>
@@ -21,9 +21,11 @@
 		</feature>
 		<feature id="org.eclipse.datatools.sqldevtools.ddlgen.feature.source" url="features/org.eclipse.datatools.sqldevtools.ddlgen.feature.source_1.10.2.v201209181447-7A-7DF7RZHQUMdThK5_t/" version="1.10.2.v201209181447-7A-7DF7RZHQUMdThK5_t">
 		</feature>
-		<feature id="org.eclipse.mylyn.ide_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.ide_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
+		<feature id="org.nodeclipse.enide.editors.gradle.feature" url="features/org.nodeclipse.enide.editors.gradle.feature_0.9.0.201401051335/" version="0.9.0.201401051335">
 		</feature>
 		<feature id="org.eclipse.mylyn.builds" plugin-identifier="org.eclipse.mylyn.builds.core" url="features/org.eclipse.mylyn.builds_1.0.3.v20130107-0100/" version="1.0.3.v20130107-0100">
+		</feature>
+		<feature id="org.eclipse.mylyn.ide_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.ide_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
 		<feature id="org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature" url="features/org.eclipse.datatools.sqldevtools.schemaobjecteditor.feature_1.10.2.v201209181447-4218375LG5BJ93413/" version="1.10.2.v201209181447-4218375LG5BJ93413">
 		</feature>
@@ -73,9 +75,9 @@
 		</feature>
 		<feature id="org.eclipse.wst.common_core.feature" url="features/org.eclipse.wst.common_core.feature_3.4.2.v201212051536-7B7EFMVF7RZHOkJkNwS4TV/" version="3.4.2.v201212051536-7B7EFMVF7RZHOkJkNwS4TV">
 		</feature>
-		<feature id="org.eclipse.mylyn.commons.notifications" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.notifications_1.1.0.v20130612-0100/" version="1.1.0.v20130612-0100">
-		</feature>
 		<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4/" version="1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4">
+		</feature>
+		<feature id="org.eclipse.mylyn.commons.notifications" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.notifications_1.1.0.v20130612-0100/" version="1.1.0.v20130612-0100">
 		</feature>
 		<feature id="net.sf.eclipsecs" plugin-identifier="net.sf.eclipsecs.branding" url="features/net.sf.eclipsecs_5.6.1.201306282206/" version="5.6.1.201306282206">
 		</feature>
@@ -86,6 +88,8 @@
 		<feature id="org.eclipse.mylyn.git" plugin-identifier="org.eclipse.mylyn.versions.core" url="features/org.eclipse.mylyn.git_1.0.3.v20130107-0100/" version="1.0.3.v20130107-0100">
 		</feature>
 		<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.8.2.v20130116-090414-8-8nFu3FNOfwKLRuqgXKIy9z0I83/" version="3.8.2.v20130116-090414-8-8nFu3FNOfwKLRuqgXKIy9z0I83">
+		</feature>
+		<feature id="org.nodeclipse.pluginslist.feature" url="features/org.nodeclipse.pluginslist.feature_0.1.0.20130811-1427/" version="0.1.0.20130811-1427">
 		</feature>
 		<feature id="org.eclipse.datatools.sqldevtools.ddl.feature.source" url="features/org.eclipse.datatools.sqldevtools.ddl.feature.source_1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au/" version="1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au">
 		</feature>
@@ -239,9 +243,9 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.team_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.team_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
-		<feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.1.1.I20110907-0947/" version="1.1.1.I20110907-0947">
-		</feature>
 		<feature id="org.eclipse.draw2d" url="features/org.eclipse.draw2d_3.9.0.201212170307/" version="3.9.0.201212170307">
+		</feature>
+		<feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.1.1.I20110907-0947/" version="1.1.1.I20110907-0947">
 		</feature>
 		<feature id="org.eclipse.wst.common_ui.feature" url="features/org.eclipse.wst.common_ui.feature_3.4.2.v201212051536-7C7AFeFEdhOaweLhCnQfylKlOxT5UW/" version="3.4.2.v201212051536-7C7AFeFEdhOaweLhCnQfylKlOxT5UW">
 		</feature>
