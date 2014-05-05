@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config transient="false" date="1391546922061" version="3.0">
+<config transient="false" date="1399306690830" version="3.0">
 	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
-		<feature id="org.eclipse.datatools.connectivity.oda.designer.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui" url="features/org.eclipse.datatools.connectivity.oda.designer.feature_1.10.2.v201209181447-4137w312412222241/" version="1.10.2.v201209181447-4137w312412222241">
+		<feature id="org.eclipse.datatools.connectivity.feature.source" url="features/org.eclipse.datatools.connectivity.feature.source_1.10.2.v201209181447-7C7h9DEt1bxqP9criVgb9XdVJxM/" version="1.10.2.v201209181447-7C7h9DEt1bxqP9criVgb9XdVJxM">
 		</feature>
 		<feature id="org.springsource.ide.eclipse.commons" url="features/org.springsource.ide.eclipse.commons_3.3.0.201307040632-RELEASE/" version="3.3.0.201307040632-RELEASE">
 		</feature>
-		<feature id="org.eclipse.datatools.connectivity.feature.source" url="features/org.eclipse.datatools.connectivity.feature.source_1.10.2.v201209181447-7C7h9DEt1bxqP9criVgb9XdVJxM/" version="1.10.2.v201209181447-7C7h9DEt1bxqP9criVgb9XdVJxM">
+		<feature id="org.eclipse.datatools.connectivity.oda.designer.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui" url="features/org.eclipse.datatools.connectivity.oda.designer.feature_1.10.2.v201209181447-4137w312412222241/" version="1.10.2.v201209181447-4137w312412222241">
 		</feature>
 		<feature id="org.eclipse.epp.package.java.feature" plugin-identifier="org.eclipse.epp.package.java" url="features/org.eclipse.epp.package.java.feature_1.5.2.20130211-1820/" version="1.5.2.20130211-1820">
 		</feature>
@@ -39,6 +39,8 @@
 		</feature>
 		<feature id="org.scala-ide.sdt.feature" plugin-identifier="org.scala-ide.sdt.core" url="features/org.scala-ide.sdt.feature_3.0.1.v-2_10-201307101641-eff8147/" version="3.0.1.v-2_10-201307101641-eff8147">
 		</feature>
+		<feature id="org.eclipse.contribution.weaving" url="features/org.eclipse.contribution.weaving_2.2.3.e42x-RELEASE-20130625-1400/" version="2.2.3.e42x-RELEASE-20130625-1400">
+		</feature>
 		<feature id="org.eclipse.datatools.sdk.feature" plugin-identifier="org.eclipse.datatools.sdk" url="features/org.eclipse.datatools.sdk.feature_1.10.2.v201209181447-7PAO7gFEpPZ58s9hZvnBQRrZbbiG/" version="1.10.2.v201209181447-7PAO7gFEpPZ58s9hZvnBQRrZbbiG">
 		</feature>
 		<feature id="org.eclipse.datatools.sqldevtools.ddl.feature" url="features/org.eclipse.datatools.sqldevtools.ddl.feature_1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au/" version="1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au">
@@ -51,9 +53,9 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.tasks.ide" plugin-identifier="org.eclipse.mylyn.tasks.core" url="features/org.eclipse.mylyn.tasks.ide_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
-		<feature id="org.eclipse.datatools.sqldevtools.results.feature" url="features/org.eclipse.datatools.sqldevtools.results.feature_1.10.2.v201302060236-427D9oB58D6B6I5OBI/" version="1.10.2.v201302060236-427D9oB58D6B6I5OBI">
-		</feature>
 		<feature id="org.eclipse.mylyn.versions" plugin-identifier="org.eclipse.mylyn.versions.core" url="features/org.eclipse.mylyn.versions_1.0.3.v20130107-0100/" version="1.0.3.v20130107-0100">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.results.feature" url="features/org.eclipse.datatools.sqldevtools.results.feature_1.10.2.v201302060236-427D9oB58D6B6I5OBI/" version="1.10.2.v201302060236-427D9oB58D6B6I5OBI">
 		</feature>
 		<feature id="org.eclipse.recommenders.feature.extdoc.rcp" url="features/org.eclipse.recommenders.feature.extdoc.rcp_1.0.3.v20130211-0152-b208/" version="1.0.3.v20130211-0152-b208">
 		</feature>
@@ -61,27 +63,27 @@
 		</feature>
 		<feature id="org.eclipse.wb.core.feature" plugin-identifier="org.eclipse.wb.core" url="features/org.eclipse.wb.core.feature_1.5.2.r42x201302111859/" version="1.5.2.r42x201302111859">
 		</feature>
-		<feature id="org.eclipse.emf.codegen.ui" url="features/org.eclipse.emf.codegen.ui_2.7.0.v20130125-0826/" version="2.7.0.v20130125-0826">
-		</feature>
 		<feature id="org.eclipse.m2e.feature" plugin-identifier="org.eclipse.m2e.core" url="features/org.eclipse.m2e.feature_1.3.0.20130129-0926/" version="1.3.0.20130129-0926">
+		</feature>
+		<feature id="org.eclipse.emf.codegen.ui" url="features/org.eclipse.emf.codegen.ui_2.7.0.v20130125-0826/" version="2.7.0.v20130125-0826">
 		</feature>
 		<feature id="org.eclipse.emf.mapping.ecore.editor" url="features/org.eclipse.emf.mapping.ecore.editor_2.7.0.v20130125-0826/" version="2.7.0.v20130125-0826">
 		</feature>
-		<feature id="org.eclipse.wst.xml_userdoc.feature" url="features/org.eclipse.wst.xml_userdoc.feature_3.3.0.v201102071641-50FYwAkF7B77UBZFDBL/" version="3.3.0.v201102071641-50FYwAkF7B77UBZFDBL">
-		</feature>
 		<feature id="org.eclipse.datatools.sqldevtools.ddlgen.feature" plugin-identifier="org.eclipse.datatools.sqltools.ddlgen.ui" url="features/org.eclipse.datatools.sqldevtools.ddlgen.feature_1.10.2.v201209181447-7A-7DF7RZHQUMdThK5_t/" version="1.10.2.v201209181447-7A-7DF7RZHQUMdThK5_t">
+		</feature>
+		<feature id="org.eclipse.wst.xml_userdoc.feature" url="features/org.eclipse.wst.xml_userdoc.feature_3.3.0.v201102071641-50FYwAkF7B77UBZFDBL/" version="3.3.0.v201102071641-50FYwAkF7B77UBZFDBL">
 		</feature>
 		<feature id="org.eclipse.recommenders.feature.completion.rcp.subwords" url="features/org.eclipse.recommenders.feature.completion.rcp.subwords_1.0.3.v20130211-0152-b208/" version="1.0.3.v20130211-0152-b208">
 		</feature>
 		<feature id="org.eclipse.wst.common_core.feature" url="features/org.eclipse.wst.common_core.feature_3.4.2.v201212051536-7B7EFMVF7RZHOkJkNwS4TV/" version="3.4.2.v201212051536-7B7EFMVF7RZHOkJkNwS4TV">
 		</feature>
-		<feature id="org.eclipse.mylyn.commons.notifications" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.notifications_1.1.0.v20130612-0100/" version="1.1.0.v20130612-0100">
-		</feature>
 		<feature id="org.eclipse.help" plugin-identifier="org.eclipse.help.base" url="features/org.eclipse.help_1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4/" version="1.4.1.v20120912-144938-8R7xFOXFLWUl7PpNBh_HIGkb4">
 		</feature>
-		<feature id="org.eclipse.emf.edit.ui" url="features/org.eclipse.emf.edit.ui_2.8.0.v20130125-0826/" version="2.8.0.v20130125-0826">
+		<feature id="org.eclipse.mylyn.commons.notifications" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.notifications_1.1.0.v20130612-0100/" version="1.1.0.v20130612-0100">
 		</feature>
 		<feature id="net.sf.eclipsecs" plugin-identifier="net.sf.eclipsecs.branding" url="features/net.sf.eclipsecs_5.6.1.201306282206/" version="5.6.1.201306282206">
+		</feature>
+		<feature id="org.eclipse.emf.edit.ui" url="features/org.eclipse.emf.edit.ui_2.8.0.v20130125-0826/" version="2.8.0.v20130125-0826">
 		</feature>
 		<feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.1.0.v20121211-153934-8297FndFWmE7h7Bpz-vcqkxyKz0/" version="1.1.0.v20121211-153934-8297FndFWmE7h7Bpz-vcqkxyKz0">
 		</feature>
@@ -89,9 +91,9 @@
 		</feature>
 		<feature id="org.eclipse.jdt" url="features/org.eclipse.jdt_3.8.2.v20130116-090414-8-8nFu3FNOfwKLRuqgXKIy9z0I83/" version="3.8.2.v20130116-090414-8-8nFu3FNOfwKLRuqgXKIy9z0I83">
 		</feature>
-		<feature id="org.eclipse.datatools.sqldevtools.ddl.feature.source" url="features/org.eclipse.datatools.sqldevtools.ddl.feature.source_1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au/" version="1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au">
-		</feature>
 		<feature id="org.nodeclipse.pluginslist.feature" url="features/org.nodeclipse.pluginslist.feature_0.1.0.20130811-1427/" version="0.1.0.20130811-1427">
+		</feature>
+		<feature id="org.eclipse.datatools.sqldevtools.ddl.feature.source" url="features/org.eclipse.datatools.sqldevtools.ddl.feature.source_1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au/" version="1.10.2.v201209181447-279178B08EG8S_IRVNeUiL6au">
 		</feature>
 		<feature id="org.eclipse.datatools.intro" url="features/org.eclipse.datatools.intro_1.10.2.v201209181447-26-7w312116392911/" version="1.10.2.v201209181447-26-7w312116392911">
 		</feature>
@@ -100,6 +102,8 @@
 		<feature id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature" url="features/org.eclipse.datatools.sqldevtools.sqlbuilder.feature_1.10.2.v201209181447-79-7DEVVFNQJaPfHz0Uc/" version="1.10.2.v201209181447-79-7DEVVFNQJaPfHz0Uc">
 		</feature>
 		<feature id="org.eclipse.emf.databinding.edit" url="features/org.eclipse.emf.databinding.edit_1.2.1.v20130125-0826/" version="1.2.1.v20130125-0826">
+		</feature>
+		<feature id="org.eclipse.equinox.weaving.sdk" url="features/org.eclipse.equinox.weaving.sdk_1.0.200.I20130319-1000/" version="1.0.200.I20130319-1000">
 		</feature>
 		<feature id="org.eclipse.emf.mapping" url="features/org.eclipse.emf.mapping_2.7.0.v20130125-0826/" version="2.7.0.v20130125-0826">
 		</feature>
@@ -141,9 +145,9 @@
 		</feature>
 		<feature id="org.scala-ide.sdt.scalatest.feature" plugin-identifier="org.scala-ide.sdt.scalatest" url="features/org.scala-ide.sdt.scalatest.feature_2.9.3.v-3-2_10-201307130941-55f5c32/" version="2.9.3.v-3-2_10-201307130941-55f5c32">
 		</feature>
-		<feature id="org.eclipse.mat.feature" plugin-identifier="org.eclipse.mat.api" url="features/org.eclipse.mat.feature_1.3.1.201401071412/" version="1.3.1.201401071412">
-		</feature>
 		<feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7/" version="4.2.1.v20130118-173121-9MF7GHYdG0B5kx4E_SkfZV-1mNjVATf67ZAb7">
+		</feature>
+		<feature id="org.eclipse.mat.feature" plugin-identifier="org.eclipse.mat.api" url="features/org.eclipse.mat.feature_1.3.1.201401071412/" version="1.3.1.201401071412">
 		</feature>
 		<feature id="org.eclipse.datatools.connectivity.oda.designer.feature.source" url="features/org.eclipse.datatools.connectivity.oda.designer.feature.source_1.10.2.v201209181447-4137w312412222241/" version="1.10.2.v201209181447-4137w312412222241">
 		</feature>
@@ -177,6 +181,8 @@
 		</feature>
 		<feature id="org.eclipse.m2e.logback.feature" plugin-identifier="org.eclipse.m2e.logback.configuration" url="features/org.eclipse.m2e.logback.feature_1.3.0.20130129-0926/" version="1.3.0.20130129-0926">
 		</feature>
+		<feature id="org.eclipse.contribution.weaving.source" url="features/org.eclipse.contribution.weaving.source_2.2.3.e42x-RELEASE-20130625-1400/" version="2.2.3.e42x-RELEASE-20130625-1400">
+		</feature>
 		<feature id="builder_generator_eclipse_feature" url="features/builder_generator_eclipse_feature_1.0.9/" version="1.0.9">
 		</feature>
 		<feature id="org.eclipse.mylyn_feature" plugin-identifier="org.eclipse.mylyn.tasks.core" url="features/org.eclipse.mylyn_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
@@ -199,11 +205,13 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.commons.identity" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.identity_1.1.0.v20130612-0100/" version="1.1.0.v20130612-0100">
 		</feature>
-		<feature id="org.eclipse.wb.core.java.feature" url="features/org.eclipse.wb.core.java.feature_1.5.2.r42x201302111907/" version="1.5.2.r42x201302111907">
-		</feature>
 		<feature id="org.eclipse.emf.databinding" url="features/org.eclipse.emf.databinding_1.2.0.v20130125-0826/" version="1.2.0.v20130125-0826">
 		</feature>
+		<feature id="org.eclipse.wb.core.java.feature" url="features/org.eclipse.wb.core.java.feature_1.5.2.r42x201302111907/" version="1.5.2.r42x201302111907">
+		</feature>
 		<feature id="org.eclipse.jgit.orbit" url="features/org.eclipse.jgit.orbit_2.2.0.201212191850-r/" version="2.2.0.201212191850-r">
+		</feature>
+		<feature id="org.eclipse.ajdt" plugin-identifier="org.eclipse.aspectj" url="features/org.eclipse.ajdt_2.2.3.e42x-RELEASE-20130625-1400/" version="2.2.3.e42x-RELEASE-20130625-1400">
 		</feature>
 		<feature id="org.eclipse.mylyn.monitor" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.monitor_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
@@ -213,9 +221,9 @@
 		</feature>
 		<feature id="org.eclipse.mylyn.bugzilla_feature" plugin-identifier="org.eclipse.mylyn.tasks.core" url="features/org.eclipse.mylyn.bugzilla_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
-		<feature id="org.eclipse.datatools.connectivity.oda.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda" url="features/org.eclipse.datatools.connectivity.oda.feature_1.10.2.v201209181447-7H7C7XCcNBHNEZEnCaQf/" version="1.10.2.v201209181447-7H7C7XCcNBHNEZEnCaQf">
-		</feature>
 		<feature id="org.eclipse.datatools.connectivity.oda.designer.core.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda.design.ui" url="features/org.eclipse.datatools.connectivity.oda.designer.core.feature_1.10.2.v201209181447-7B7C7RCcNBGVEWBjChUf/" version="1.10.2.v201209181447-7B7C7RCcNBGVEWBjChUf">
+		</feature>
+		<feature id="org.eclipse.datatools.connectivity.oda.feature" plugin-identifier="org.eclipse.datatools.connectivity.oda" url="features/org.eclipse.datatools.connectivity.oda.feature_1.10.2.v201209181447-7H7C7XCcNBHNEZEnCaQf/" version="1.10.2.v201209181447-7H7C7XCcNBHNEZEnCaQf">
 		</feature>
 		<feature id="org.eclipse.mylyn.java_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.java_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
@@ -231,35 +239,37 @@
 		</feature>
 		<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.8.3.v20130125-0546/" version="2.8.3.v20130125-0546">
 		</feature>
-		<feature id="org.eclipse.wb.swing.feature" plugin-identifier="org.eclipse.wb.swing" url="features/org.eclipse.wb.swing.feature_1.5.2.r42x201302112024/" version="1.5.2.r42x201302112024">
-		</feature>
 		<feature id="org.eclipse.egit.mylyn" plugin-identifier="org.eclipse.egit" url="features/org.eclipse.egit.mylyn_2.2.0.201212191850-r/" version="2.2.0.201212191850-r">
+		</feature>
+		<feature id="org.eclipse.wb.swing.feature" plugin-identifier="org.eclipse.wb.swing" url="features/org.eclipse.wb.swing.feature_1.5.2.r42x201302112024/" version="1.5.2.r42x201302112024">
 		</feature>
 		<feature id="org.eclipse.emf.mapping.ecore" url="features/org.eclipse.emf.mapping.ecore_2.7.0.v20130125-0826/" version="2.7.0.v20130125-0826">
 		</feature>
-		<feature id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.source" url="features/org.eclipse.datatools.sqldevtools.sqlbuilder.feature.source_1.10.2.v201209181447-79-7DEVVFNQJaPfHz0Uc/" version="1.10.2.v201209181447-79-7DEVVFNQJaPfHz0Uc">
-		</feature>
 		<feature id="org.eclipse.e4.rcp" url="features/org.eclipse.e4.rcp_1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS/" version="1.1.2.v20130130-191718-91FUvGP7GIX2Kgz-z-gvjMvXV1NS">
 		</feature>
-		<feature id="com.mountainminds.eclemma.feature" plugin-identifier="com.mountainminds.eclemma.ui" url="features/com.mountainminds.eclemma.feature_2.2.1.201306092145/" version="2.2.1.201306092145">
+		<feature id="org.eclipse.datatools.sqldevtools.sqlbuilder.feature.source" url="features/org.eclipse.datatools.sqldevtools.sqlbuilder.feature.source_1.10.2.v201209181447-79-7DEVVFNQJaPfHz0Uc/" version="1.10.2.v201209181447-79-7DEVVFNQJaPfHz0Uc">
 		</feature>
 		<feature id="org.eclipse.emf.codegen.ecore" url="features/org.eclipse.emf.codegen.ecore_2.8.2.v20130125-0826/" version="2.8.2.v20130125-0826">
 		</feature>
+		<feature id="com.mountainminds.eclemma.feature" plugin-identifier="com.mountainminds.eclemma.ui" url="features/com.mountainminds.eclemma.feature_2.2.1.201306092145/" version="2.2.1.201306092145">
+		</feature>
 		<feature id="org.eclipse.recommenders.feature.rcp" plugin-identifier="org.eclipse.recommenders.rcp" url="features/org.eclipse.recommenders.feature.rcp_1.0.3.v20130211-0152-b208/" version="1.0.3.v20130211-0152-b208">
 		</feature>
-		<feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.1.1.I20110907-0947/" version="1.1.1.I20110907-0947">
+		<feature id="org.eclipse.mylyn.team_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.team_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
 		</feature>
 		<feature id="org.eclipse.draw2d" url="features/org.eclipse.draw2d_3.9.0.201212170307/" version="3.9.0.201212170307">
 		</feature>
-		<feature id="org.eclipse.mylyn.team_feature" plugin-identifier="org.eclipse.mylyn.context.core" url="features/org.eclipse.mylyn.team_feature_3.9.0.v20130612-0100/" version="3.9.0.v20130612-0100">
+		<feature id="org.eclipse.epp.mpc" plugin-identifier="org.eclipse.epp.mpc.ui" url="features/org.eclipse.epp.mpc_1.1.1.I20110907-0947/" version="1.1.1.I20110907-0947">
 		</feature>
 		<feature id="org.eclipse.wst.common_ui.feature" url="features/org.eclipse.wst.common_ui.feature_3.4.2.v201212051536-7C7AFeFEdhOaweLhCnQfylKlOxT5UW/" version="3.4.2.v201212051536-7C7AFeFEdhOaweLhCnQfylKlOxT5UW">
 		</feature>
 		<feature id="org.eclipse.mylyn.commons.repositories" plugin-identifier="org.eclipse.mylyn.commons.core" url="features/org.eclipse.mylyn.commons.repositories_1.1.0.v20130612-0100/" version="1.1.0.v20130612-0100">
 		</feature>
-		<feature id="org.eclipse.mylyn.cvs" plugin-identifier="org.eclipse.mylyn.versions.core" url="features/org.eclipse.mylyn.cvs_1.0.3.v20130107-0100/" version="1.0.3.v20130107-0100">
+		<feature id="org.aspectj" plugin-identifier="org.eclipse.aspectj" url="features/org.aspectj_1.7.3.20130613144500-a/" version="1.7.3.20130613144500-a">
 		</feature>
 		<feature id="org.eclipse.datatools.enablement.jdbc.feature" plugin-identifier="org.eclipse.datatools.enablement.sybase" url="features/org.eclipse.datatools.enablement.jdbc.feature_1.10.2.v201209181447-4-39oB5896KB97JHP/" version="1.10.2.v201209181447-4-39oB5896KB97JHP">
+		</feature>
+		<feature id="org.eclipse.mylyn.cvs" plugin-identifier="org.eclipse.mylyn.versions.core" url="features/org.eclipse.mylyn.cvs_1.0.3.v20130107-0100/" version="1.0.3.v20130107-0100">
 		</feature>
 	</site>
 </config>

@@ -2,6 +2,7 @@
 <root>
 <contributor name="org.eclipse.pde.ui"/>
 <contributor name="org.eclipse.egit.doc"/>
+<contributor name="org.eclipse.aspectj"/>
 <contributor name="org.eclipse.mylyn.help.ui"/>
 <contributor name="org.eclipse.platform"/>
 <contributor name="org.eclipse.datatools.intro"/>

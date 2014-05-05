@@ -1,5 +1,7 @@
 #encoding=UTF-8
 #version=1
+org.aspectj.runtime.source,1.7.3.20130613144500-a,plugins/org.aspectj.runtime.source_1.7.3.20130613144500-a.jar,-1,false
+org.eclipse.contribution.weaving.jdt.source,2.2.3.e42x-RELEASE-20130625-1400,plugins/org.eclipse.contribution.weaving.jdt.source_2.2.3.e42x-RELEASE-20130625-1400.jar,-1,false
 org.eclipse.datatools.connectivity.console.profile.source,1.0.10.v201109250955,plugins/org.eclipse.datatools.connectivity.console.profile.source_1.0.10.v201109250955.jar,-1,false
 org.eclipse.datatools.connectivity.db.generic.source,1.0.1.v201107221459,plugins/org.eclipse.datatools.connectivity.db.generic.source_1.0.1.v201107221459.jar,-1,false
 org.eclipse.datatools.connectivity.oda.consumer.source,3.2.5.v201109151100,plugins/org.eclipse.datatools.connectivity.oda.consumer.source_3.2.5.v201109151100.jar,-1,false
@@ -48,3 +50,7 @@ org.eclipse.datatools.sqltools.sqlbuilder.source,1.0.5.v201212120623,plugins/org
 org.eclipse.datatools.sqltools.sqleditor.source,1.0.4.v201212120623,plugins/org.eclipse.datatools.sqltools.sqleditor.source_1.0.4.v201212120623.jar,-1,false
 org.eclipse.datatools.sqltools.sqlscrapbook.source,1.0.2.v201205310922,plugins/org.eclipse.datatools.sqltools.sqlscrapbook.source_1.0.2.v201205310922.jar,-1,false
 org.eclipse.datatools.sqltools.tabledataeditor.source,1.0.2.v201212120623,plugins/org.eclipse.datatools.sqltools.tabledataeditor.source_1.0.2.v201212120623.jar,-1,false
+org.eclipse.equinox.weaving.aspectj.source,1.0.300.I20130319-1000,plugins/org.eclipse.equinox.weaving.aspectj.source_1.0.300.I20130319-1000.jar,-1,false
+org.eclipse.equinox.weaving.caching.j9.source,1.0.200.I20130319-1000,plugins/org.eclipse.equinox.weaving.caching.j9.source_1.0.200.I20130319-1000.jar,-1,false
+org.eclipse.equinox.weaving.caching.source,1.0.200.I20130319-1000,plugins/org.eclipse.equinox.weaving.caching.source_1.0.200.I20130319-1000.jar,-1,false
+org.eclipse.equinox.weaving.hook.source,1.0.200.I20130319-1000,plugins/org.eclipse.equinox.weaving.hook.source_1.0.200.I20130319-1000.jar,-1,false
