@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.springsource.ide.eclipse.gradle.feature"
+      label="%featureName"
+      version="3.6.3.201411271013-RELEASE"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <plugin
+         id="org.springsource.ide.eclipse.gradle.core"
+         download-size="345"
+         install-size="708"
+         version="3.6.3.201411271013-RELEASE"/>
+
+   <plugin
+         id="org.springsource.ide.eclipse.gradle.ui"
+         download-size="248"
+         install-size="504"
+         version="3.6.3.201411271013-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springsource.ide.eclipse.gradle.ui.taskview"
+         download-size="39"
+         install-size="71"
+         version="3.6.3.201411271013-RELEASE"
+         unpack="false"/>
+
+   <plugin
+         id="org.springsource.ide.eclipse.gradle.toolingapi"
+         download-size="8987"
+         install-size="10352"
+         version="3.6.3.201411271013-RELEASE"
+         unpack="true"/>
+
+   <plugin
+         id="org.apache.commons.io"
+         download-size="166"
+         install-size="327"
+         version="2.0.1.v201105210651"
+         unpack="false"/>
+
+</feature>

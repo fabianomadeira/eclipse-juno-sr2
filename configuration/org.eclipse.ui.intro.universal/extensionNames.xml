@@ -4,14 +4,15 @@
 <contributor name="org.eclipse.egit.doc"/>
 <contributor name="org.eclipse.aspectj"/>
 <contributor name="org.eclipse.mylyn.help.ui"/>
+<contributor name="org.springsource.ide.eclipse.dashboard.ui"/>
 <contributor name="org.eclipse.platform"/>
 <contributor name="org.eclipse.datatools.intro"/>
 <contributor name="org.eclipse.jdt"/>
 <contributor name="org.eclipse.m2e.core.ui"/>
 <contributor name="org.eclipse.epp.mpc.ui"/>
 <contributor name="org.eclipse.ui.intro"/>
-<contributor name="org.eclipse.mat.ui.help"/>
 <contributor name="org.eclipse.ui.intro.universal"/>
+<contributor name="org.eclipse.mat.ui.help"/>
 <contributor name="org.eclipse.mat.ui"/>
 <contributor name="org.eclipse.pde"/>
 <contributor name="org.ucdetector"/>
